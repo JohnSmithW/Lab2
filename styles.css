@@ -1,0 +1,15 @@
+body{
+  display:flex;
+  justify-content: center;
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 120%;
+  background-color:rgb(248, 142, 20);
+}
+input{
+  height:5%;
+  width:100%;
+}
+
