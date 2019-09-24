@@ -8,21 +8,21 @@
 <body>
 <form>
 <p>Input your last name</p>
-<input type="text" name="text" placeholder="last name" required pattern="[A-Za-z\s]+$">
+<input type="text" class="input" name="text" placeholder="last name" required pattern="[A-Za-z\s]+$">
 <p>Input your name</p>
-<input type="text" name="text" placeholder="name" required pattern="[A-Za-z\s]+$">
+<input type="text" class="input" name="text" placeholder="name" required pattern="[A-Za-z\s]+$">
 <p>Input your email adress</p>
-<input type="email" name="email" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+<input type="email" class="input" name="email" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 <p>Input your city</p>
-<input type="text" name="city" placeholder="city" required pattern="[A-Za-z\s]+$">
+<input type="text" class="input" name="city" placeholder="city" required pattern="[A-Za-z\s]+$">
 <p>Input your phone number</p>
-<input type="tel" name="tel" placeholder="number" maxlength="12" required pattern="\+7[0-9]{9}">
+<input type="tel" class="input" name="tel" placeholder="+73456789112" maxlength="12" required pattern="\+7[0-9]{9}">
 <p>Commentary</p>
 <textarea maxlength="350" name="comments"></textarea>
 <p>Get messages</p>
-<input type="checkbox" name="checkbox">
+<input type="checkbox" class="checkbox" name="checkbox">
 <p>Order</p>
-<input type="submit" value="order">
+<input type="submit" class="input" value="order">
 </form>
 </body>
 </html>

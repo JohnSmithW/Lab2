@@ -6,11 +6,33 @@ body{
 }
 p{
   font-size: 130%;
-  color:white;
+  color:black;
 }
-input{
-  height:5%;
-  width:100%;
+.input{
+  width:50%;
   border-radius: 5px;
+  font-size: 150%;
+  background-color: aliceblue;
+}
+textarea{
+  height:5vmax;
+  width:50%;
+}
+.checkbox{
+  width:30%;
+  height:1.5vmax;
+}
+form{
+  width:50%;
+  border-radius: 5%;
+  background-color:rgb(231, 156, 15);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:5%;
+}
+.form-block{
+  
 }
 
