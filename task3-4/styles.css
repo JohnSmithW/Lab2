@@ -1,0 +1,33 @@
+body{
+  display:flex;
+  justify-content: center;
+  background-color: aqua;
+}
+.main{
+  margin-top:10%;
+  display: flex;
+  flex-direction: row;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  font-size: 130%;
+}
+button{
+  height: 100%;
+  transition-duration: .5s;
+  border: 0.9vmax solid white;
+}
+button:hover{
+  font-size:150%;
+  background-color: gold;
+}
+.frame{
+  display: block;
+}
+.non-frame{
+  display: none;
+}
+iframe{
+  border: 0.9vmax inset rgba(238, 152, 22, 0.938); 
+}
