@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>task3-4</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<div class="main">
-<iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/M7XM597XO94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/pU8-7BX9uxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/FknHjl7eQ6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/YApuEWtG30w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="button">
-    <button onclick="switchVideo(0)">video1</button>
-    <button onclick="switchVideo(1)">video2</button>
-    <button onclick="switchVideo(2)">video3</button>
-    <button onclick="switchVideo(3)">video4</button>
-</div>
-</div>
-<script src="script.js"></script>
+  <div class="content">
+  <div class="main">
+    <div class="frames">
+      <iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/M7XM597XO94"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/pU8-7BX9uxs"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/FknHjl7eQ6o"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/YApuEWtG30w"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="button">
+      <button onclick="switchVideo(0)">video 1</button>
+      <button onclick="switchVideo(1)">video 2</button>
+      <button onclick="switchVideo(2)">video 3</button>
+      <button onclick="switchVideo(3)">video 4</button>
+    </div>
+  </div>
+  <form class=comments>
+      <h2>Comments</h2>
+      <div class="users">
+        <h2>username</h2>
+        <p>good one</p>
+      </div>
+      <div class="users">
+          <h2>Johnny</h2>
+          <p>nice video</p>
+    </div>
+    <h3>Leave a comment</h3>
+    <input type="text" name="text" placeholder="User name">
+    <textarea maxlength="350" name="comments" placeholder="Text"></textarea>
+    <input id="submit" type="submit" value="Send">
+  </form>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
+
 </html>

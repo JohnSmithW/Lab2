@@ -17,6 +17,7 @@ button{
   height: 100%;
   transition-duration: .5s;
   border: 0.9vmax solid white;
+  background-color: orange;
 }
 button:hover{
   font-size:150%;
@@ -24,10 +25,46 @@ button:hover{
 }
 .frame{
   display: block;
+  transition-duration: .5s;
 }
 .non-frame{
-  display: none;
+ display: none;
 }
 iframe{
   border: 0.9vmax inset rgba(238, 152, 22, 0.938); 
+}
+.frames{
+  border:0;
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+}
+.comments h3{
+  font-size: 150%;
+}
+.users{
+  background-color: rgba(255, 255, 255, 0.801);
+  border:2px solid black; 
+  margin-top:2%;
+}
+.users p{
+  font-size: 200%;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  height:2vmax;
+}
+textarea{
+  resize: none;
+  margin-top: 2%;
+  height:5vmax;
+}
+#submit{
+  border-radius:10px;
+  width:30%;
+  margin-top: 2%;
 }
