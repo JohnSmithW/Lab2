@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.main {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  font-size: 130%;
+}
+
+button {
+  height: 100%;
+  transition-duration: .5s;
+  border: 0.9vmax solid white;
+  background-color: orange;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: gold;
+}
+
+.frame {
+  display: block;
+  transition-duration: .5s;
+}
+
+.non-frame {
+  display: none;
+}
+
+iframe {
+  border: 0.9vmax inset rgba(238, 152, 22, 0.938);
+}
+
+.frames {
+  border: 0;
+}
+
+.comments-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-form h3 {
+  font-size: 150%;
+}
+
+.users {
+  background-color: rgba(255, 255, 255, 0.801);
+  border: 2px solid black;
+  margin-top: 2%;
+}
+
+.users p {
+  font-size: 200%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 2vmax;
+}
+
+textarea {
+  resize: none;
+  margin-top: 2%;
+  height: 5vmax;
+}
+
+.submit {
+  border-radius: 10px;
+  width: 30%;
+  margin-top: 2%;
+  background-color: rgba(238, 152, 22, 0.938);
+}
+
+.users-off {
+  display: none;
+}
