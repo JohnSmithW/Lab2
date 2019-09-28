@@ -4,8 +4,8 @@ body{
   background-color: aqua;
   font-family: Arial, Helvetica, sans-serif;
 }
-p{
-  font-size: 130%;
+p{ 
+   font-size: 130%;
   color:black;
 }
 .input{
