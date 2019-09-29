@@ -21,7 +21,7 @@ body{
   outline: 0;
   cursor: pointer;
 }
-textarea{
+.textarea{
   height:5vmax;
   width:70%;
   resize: none;
