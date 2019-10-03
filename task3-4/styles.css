@@ -53,6 +53,11 @@ button:hover {
   display: flex;
   flex-direction: column;
   margin-bottom: 10%;
+  width:89%;
+}
+
+.comments{
+  width:89%;
 }
 
 .comments-form h3 {
@@ -94,7 +99,6 @@ textarea {
 .submit {
   border-radius: 10px;
   width: 30%;
-  margin-top: 2%;
   background-color: rgba(118, 252, 252, 0.507);
   border:0;
   outline:0;
