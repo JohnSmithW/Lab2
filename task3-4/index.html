@@ -10,12 +10,6 @@
     <div class="content">
       <div class="main">
         <div class="frames">
-          <iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/M7XM597XO94"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/pU8-7BX9uxs"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="frame non-frame" width="560" height="315" src="https://www.youtube.com/embed/FknHjl7eQ6o"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/YApuEWtG30w"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -26,93 +20,27 @@
           <button onclick="switchVideo(3)">video 4</button>
         </div>
       </div>
+
+
       <div class="comments">
         <h2>Comments</h2>
         <div class="border-line"></div>
+        <div class="comment-container">
         <div class="users">
           <h2>username</h2>
           <p>good one</p>
         </div>
-        <div class="users">
-          <h2>Johnny</h2>
-          <p>nice video</p>
         </div>
         <div class="border-line"></div>
         <form class=comments-form>
           <h3>Leave a comment</h3>
-          <input type="text" name="text" placeholder="User name">
-          <textarea maxlength="350" name="comments" placeholder="Text"></textarea>
-          <input class="submit" type="submit" value="Send">
+          <input type="text" class="user-text" name="text" placeholder="User name">
+          <textarea maxlength="350" class="textarea" name="comments" placeholder="Text"></textarea>
         </form>
+        <input class="submit" id="submit" type="submit" value="Send">
       </div>
-      <div class="comments users-off">
-        <h2>Comments</h2>
-        <div class="users">
-          <h2>Testing</h2>
-          <p>GOOD</p>
-        </div>
-        <div class="users">
-          <h2>Silver</h2>
-          <p>Fire</p>
-        </div>
-        <form class="comments-form">
-          <h3>Leave a comment</h3>
-          <input type="text" name="text" placeholder="User name">
-          <textarea maxlength="350" name="comments" placeholder="Text"></textarea>
-          <input class="submit" type="submit" value="Send">
-        </form>
-      </div>
-      <div class="comments users-off">
-        <h2>Comments</h2>
-        <div class="users">
-          <h2>Spaceit</h2>
-          <p>i like it</p>
-        </div>
-        <div class="users">
-          <h2>124412</h2>
-          <p>thumbs up</p>
-        </div>
-        <form class=comments-form>
-          <h3>Leave a comment</h3>
-          <input type="text" name="text" placeholder="User name">
-          <textarea maxlength="350" name="comments" placeholder="Text"></textarea>
-          <input class="submit" type="submit" value="Send">
-        </form>
-      </div>
-      <div class="comments users-off">
-        <h2>Comments</h2>
-        <div class="users">
-          <h2>AFA21</h2>
-          <p>:)</p>
-        </div>
-        <div class="users">
-          <h2>Tf</h2>
-          <p>good one</p>
-        </div>
-        <form class=comments-form>
-          <h3>Leave a comment</h3>
-          <input type="text" name="text" placeholder="User name">
-          <textarea maxlength="350" name="comments" placeholder="Text"></textarea>
-          <input class="submit" type="submit" value="Send">
-        </form>
-      </div>
-      <div class="comments users-off">
-        <h2>Comments</h2>
-        <div class="users">
-          <h2>JamesB</h2>
-          <p>i like this one</p>
-        </div>
-        <div class="users">
-          <h2>M</h2>
-          <p>well done</p>
-        </div>
-        <form class=comments-form>
-          <h3>Leave a comment</h3>
-          <input type="text" name="text" placeholder="User name">
-          <textarea maxlength="350" name="comments" placeholder="Text"></textarea>
-          <input class="submit" type="submit" value="Send">
-        </form>
-      </div>
+
+
     </div>
     <script src="script.js"></script>
   </body>
