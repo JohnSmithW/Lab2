@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>task3-4</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="content">
-      <div class="main">
-        <div class="frames">
-          <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/YApuEWtG30w"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="button">
-          <button onclick="switchVideo(0)">video 1</button>
-          <button onclick="switchVideo(1)">video 2</button>
-          <button onclick="switchVideo(2)">video 3</button>
-          <button onclick="switchVideo(3)">video 4</button>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>task3-4</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="content">
+    <div class="main">
+      <div class="frames">
+        <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/YApuEWtG30w"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-
-      <form class=comments-form>
-        <h3>Leave a comment</h3>
-        <input type="text" class="user-text" name="text" placeholder="User name">
-        <textarea maxlength="350" class="textarea" name="comments" placeholder="Text"></textarea>
-      </form>
-      <input class="submit" id="submit" type="submit" value="Send">
-      <div class="comments">
-        <h2>Comments</h2>
-        <div class="border-line"></div>
-        <div class="comment-container">
-        <div class="users">
-          <h2>username</h2>
-          <p>good one</p>
-        </div>
-        </div>
-        <div class="border-line"></div>
+      <div class="button">
+        <button onclick="switchVideo(0)">video 1</button>
+        <button onclick="switchVideo(1)">video 2</button>
+        <button onclick="switchVideo(2)">video 3</button>
+        <button onclick="switchVideo(3)">video 4</button>
       </div>
-
-
     </div>
-    <script src="script.js"></script>
-  </body>
+    <form class=comments-form>
+      <h3>Leave a comment</h3>
+      <input type="text" class="user-text" name="text" placeholder="User name">
+      <textarea maxlength="350" class="textarea" name="comments" placeholder="Text"></textarea>
+    </form>
+    <input class="submit" id="submit" type="submit" value="Send">
+    <div class="comments">
+      <h2>Comments</h2>
+      <div class="border-line"></div>
+      <div class="comment-container visible">
+      </div>
+      <div class="comment-container">
+      </div>
+      <div class="comment-container">
+      </div>
+      <div class="comment-container">
+      </div>
+      <div class="border-line"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>

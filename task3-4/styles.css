@@ -1,5 +1,5 @@
 body {
-  display:flex;
+  display: flex;
   justify-content: center;
   background-color: azure;
   font-family: 'M PLUS 1p', sans-serif;
@@ -18,21 +18,21 @@ body {
   margin-left: 5%;
 }
 
-button {
+.content button {
   height: 100%;
-  width:400%;
+  width: 400%;
   transition-duration: .5s;
   background-color: rgba(84, 224, 243, 0.178);
-  margin-top:20%;
+  margin-top: 20%;
   border-radius: 5%;
-  border:0;
+  border: 0;
   outline: 0;
   cursor: pointer;
   font-family: 'M PLUS 1p', sans-serif;
   font-size: 100%;
 }
 
-button:hover {
+.content button:hover {
   transform: scale(1.1);
   background-color: rgba(118, 252, 252, 0.507);
 }
@@ -45,6 +45,7 @@ button:hover {
 .non-frame {
   display: none;
 }
+
 .frames {
   border: 0;
 }
@@ -53,11 +54,11 @@ button:hover {
   display: flex;
   flex-direction: column;
   margin-bottom: 10%;
-  width:89%;
+  width: 89%;
 }
 
-.comments{
-  width:89%;
+.comments {
+  width: 89%;
 }
 
 .comments-form h3 {
@@ -66,19 +67,19 @@ button:hover {
 
 .users {
   background-color: rgba(84, 224, 243, 0.123);
-  width:100%;
+  width: 100%;
   margin-top: 2%;
 }
 
 .users p {
   font-size: 150%;
-  margin:0;
+  margin: 0;
   margin-left: 2%;
 }
 
-.users h2{
-  margin:0;
-  margin-left:2%;
+.users h2 {
+  margin: 0;
+  margin-left: 2%;
 }
 
 .content {
@@ -86,11 +87,11 @@ button:hover {
   flex-direction: column;
 }
 
-input {
+.content input {
   height: 2vmax;
 }
 
-textarea {
+.content textarea {
   resize: none;
   margin-top: 2%;
   height: 5vmax;
@@ -100,12 +101,14 @@ textarea {
   border-radius: 10px;
   width: 30%;
   background-color: rgba(118, 252, 252, 0.507);
-  border:0;
-  outline:0;
+  border: 0;
+  margin-top: 5%;
+  outline: 0;
   cursor: pointer;
   transition-duration: .5s;
 }
-.submit:hover{
+
+.submit:hover {
   transform: scale(1.1);
   background-color: rgb(118, 252, 252);
 }
@@ -113,10 +116,19 @@ textarea {
 .users-off {
   display: none;
 }
-.border-line{
-  width:100%;
-  height:0.1vmax;
+
+.border-line {
+  width: 100%;
+  height: 0.1vmax;
   background-color: rgba(0, 0, 0, 0.096);
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.comment-container {
+  display: none;
+}
+
+.visible {
+  display: block;
 }
