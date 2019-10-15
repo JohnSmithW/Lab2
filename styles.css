@@ -1,57 +1,65 @@
-body{
-  display:flex;
+body {
+  display: flex;
   justify-content: center;
   background-color: azure;
   font-family: 'Be Vietnam', sans-serif;
 }
-.input{
-  width:80%;
+
+.input {
+  width: 80%;
   border-radius: 5px;
   font-size: 150%;
   background-color: rgb(226, 255, 254);
-  border:0;
+  border: 0;
   outline: 0;
 }
-.submit-btn{
-  width:70%;
+
+.submit-btn {
+  width: 70%;
   border-radius: 5px;
   font-size: 150%;
   background-color: rgb(104, 234, 243);
-  border:0;
+  border: 0;
   outline: 0;
   cursor: pointer;
 }
-.textarea{
-  height:5vmax;
-  width:70%;
+
+.textarea {
+  height: 5vmax;
+  width: 70%;
   resize: none;
 }
-.checkbox{
+
+.checkbox {
   transform: scale(1.5);
-  height:1vmax;
+  height: 1vmax;
   outline: none;
-  margin-left:2%;
-  margin-top:2%;
+  margin-left: 2%;
+  margin-top: 2%;
 }
-label{
+
+label {
   display: block;
   padding-bottom: 2%;
   margin-top: 2%;
 }
-.text{
+
+.text {
   display: flex;
   justify-content: left;
   font-size: 1.3vmax;
-  color:black;
+  color: black;
 }
-.order-btn{
+
+.order-btn {
   display: flex;
   justify-content: center;
 }
-.content{
-  width:30%;
-  height:27vmax;
-  padding-top:2%;
+
+.content {
+  width: 30%;
+  height: 30vmax;
+  padding-top: 2%;
   display: flex;
   justify-content: center;
   margin-top: 5%;
@@ -59,14 +67,17 @@ label{
   border-top: 2px solid rgba(0, 0, 0, 0.205);
   border-bottom: 2px solid rgba(0, 0, 0, 0.205);
 }
-.side-box{
+
+.side-box {
   display: flex;
 }
-.img{
-  width:19%;
-  margin-right:3%;
+
+.img {
+  width: 19%;
+  margin-right: 3%;
 }
+
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic%7CComfortaa:400,700&subset=latin,cyrillic);
-#number{
-  width:40%;
+#number {
+  width: 40%;
 }
